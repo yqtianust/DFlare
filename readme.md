@@ -4,9 +4,9 @@ This is the implementation of DFlare.
 
 ## Note
 For DNN models and seed inputs, this folder only includes the three models collects from Diffchaser and the corresponding seed inputs.
-Otherwise, its size will exceed the limit of CMT website and GitHub Repo.
-When paper is accepted, we will host all models and code in our institutional website. 
-If you want to access them before that, please create an issue in GitHub and leave an email  
+Otherwise, its size will exceed the limit of GitHub Repo.
+We are working on host all models and code in a seperate website. 
+If you want to access them before that, please contact us.
 
 ## Instructions
 The main logic of DFlare is in `test_gen_main.py`. To run the code, please run the wrapper: `gen_wrapper_tflite.py`
