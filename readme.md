@@ -49,4 +49,10 @@ Keras==2.4.3
 tensorflow==2.2.0
 ```
 
+## Questions
+
+Leave a question using issue report or contact me via yongqiang.tian - at - uwaterloo.ca
+
+
+
 
