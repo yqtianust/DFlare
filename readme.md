@@ -2,12 +2,6 @@
 
 This is the implementation of DFlare.
 
-## Note
-For DNN models and seed inputs, this folder only includes the three models collects from Diffchaser and the corresponding seed inputs.
-Otherwise, its size will exceed the limit of GitHub Repo.
-We are working on host all models and code in a seperate website. 
-If you want to access them before that, please contact us.
-
 ## Instructions
 The main logic of DFlare is in `test_gen_main.py`. To run the code, please run the wrapper: `gen_wrapper_tflite.py`
 
@@ -27,6 +21,11 @@ If `model` is `resnet`, then it should be `--dataset cifar`.
 `seed_inputs.p` stores the seed inputs used by us.
 
 To apply it on other models, please revise the `gen_wrapper_tflite.py'
+
+### Models used in our paper
+
+Pelase downloadn it from [here](https://hkustconnect-my.sharepoint.com/:f:/g/personal/ytianas_connect_ust_hk/EmJ0HLIS1JZPoRJB9wUzZswBgfZ8mbLn54sCwNiaUyzoPg?e=hCv7Ol) and follow the instructions in the readme. 
+
 
 ## Environment.
 DFlare majorly requires the following package.
