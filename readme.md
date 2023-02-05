@@ -1,6 +1,10 @@
 # README of DFlare
 
-This is the implementation of DFlare.
+This repo is the implementation of DFlare. 
+DFlare is the tool proposed in our paper _Finding Deviated Behaviors of the Compressed DNN Models for Image
+Classifications_, which is accepted by ACM TOSEM in 2023.
+
+
 
 ## Instructions
 The main logic of DFlare is in `test_gen_main.py`. To run the code, please run the wrapper: `gen_wrapper_tflite.py`
