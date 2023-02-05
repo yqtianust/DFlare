@@ -24,7 +24,21 @@ To apply it on other models, please revise the `gen_wrapper_tflite.py'
 
 ### Models used in our paper
 
+### The model prepared by us
+
 Pelase downloadn it from [here](https://hkustconnect-my.sharepoint.com/:f:/g/personal/ytianas_connect_ust_hk/EmJ0HLIS1JZPoRJB9wUzZswBgfZ8mbLn54sCwNiaUyzoPg?e=hCv7Ol) and follow the instructions in the readme. 
+
+#### ImageNet models 
+Models are available at [PyTorch](https://pytorch.org/vision/stable/models.html#quantized-models)
+
+#### DeepSpeech models 
+
+Moldes are available at [DeepSpeech](https://github.com/mozilla/DeepSpeech).
+
+Please note that the compressed model and the original models cannot be executed in the same enviroment. 
+The compressed models need the python package ``deepspeech-tflite'' while the original models need the package ``deepspeech'' or ``deepspeech-gpu''.
+
+More details are available at [here](https://deepspeech.readthedocs.io/en/r0.9/USING.html#getting-the-pre-trained-model)
 
 
 ## Environment.
