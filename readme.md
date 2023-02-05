@@ -17,14 +17,18 @@ If `model` is `resnet`, then it should be `--dataset cifar`.
 `seed` can be 0,1,2,3,4.
 
 ## Dataset and Models.
-`./diffchaser_models` list the models from diffchaser.
+
+
+### Datasets
+
 `seed_inputs.p` stores the seed inputs used by us.
 
-To apply it on other models, please revise the `gen_wrapper_tflite.py'
 
-### Models used in our paper
+### The models from DiffChaser
+`./diffchaser_models` list the models from diffchaser.
 
-### The model prepared by us
+
+#### The models prepared by us
 
 Pelase downloadn it from [here](https://hkustconnect-my.sharepoint.com/:f:/g/personal/ytianas_connect_ust_hk/EmJ0HLIS1JZPoRJB9wUzZswBgfZ8mbLn54sCwNiaUyzoPg?e=hCv7Ol) and follow the instructions in the readme. 
 
@@ -36,20 +40,25 @@ Models are available at [PyTorch](https://pytorch.org/vision/stable/models.html#
 Moldes are available at [DeepSpeech](https://github.com/mozilla/DeepSpeech).
 
 Please note that the compressed model and the original models cannot be executed in the same enviroment. 
-The compressed models need the python package ``deepspeech-tflite'' while the original models need the package ``deepspeech'' or ``deepspeech-gpu''.
+The compressed models need the python package ``deepspeech-tflite'' while the original models need the package ``deepspeech'' or ``deepspeech-gpu''. More details are available at [here](https://deepspeech.readthedocs.io/en/r0.9/USING.html#getting-the-pre-trained-model).
 
-More details are available at [here](https://deepspeech.readthedocs.io/en/r0.9/USING.html#getting-the-pre-trained-model)
+
+#### Using other models
+To apply it on other models, please revise the `gen_wrapper_tflite.py'
 
 
 ## Environment.
 DFlare majorly requires the following package.
+
 ```
 pyflann-py3==0.1.0
 opencv-python-headless==4.5.3.56
 numpy
 ```
 
-However, the tflite model requires much more. Here we give the list of package in our environment.  A full list package for reference is in `tflite_requirement.txt`.
+However, the tflite model requires much more. Here we give the list of package in our environment.  
+A full list package for reference is in `tflite_requirement.txt`.
+
 
 ### System Package
 ```
@@ -65,7 +74,11 @@ tensorflow==2.2.0
 
 ## Questions
 
-Leave a question using issue report or contact me via yongqiang.tian - at - uwaterloo.ca
+Feel free to leave a question using issue report, or contact me via yongqiang.tian - at - uwaterloo.ca
+
+
+
+
 
 
 
